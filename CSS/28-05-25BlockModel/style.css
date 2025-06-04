@@ -1,0 +1,49 @@
+
+#box{
+    /* background-color: red;
+    border-style: double;
+    border-color: blue; */
+    /* if we do not give border color ,it take font-color('color') property */
+    border: 2px solid red;
+    /* shorthand property */
+    border-top: 10px dotted red;
+}
+
+#boxDiv{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    /* border is a shorthand property for 
+    border-width
+    border-style
+    border-color */
+    border:2px solid red;
+    border-radius: 20px;
+    border-radius: 50%;
+
+}
+
+#boxModel1{
+    border: 1px solid green;
+    width: 200px;
+    height: 200px;
+    margin: 50px 20px 10px 5px;
+        /*  top right bottom left */
+    padding: 30px;
+}
+
+#mysection{
+    width: 300px;
+    
+    border: 10px dotted red;
+    padding: 20px 10px;
+    /* top-bootom left-right */
+ /*      odd       even */
+}
+
+#myDiv{
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px 5px ;
+    margin: 20px;
+}

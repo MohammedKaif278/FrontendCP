@@ -1,0 +1,28 @@
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+article{
+    text-indent: 60px;
+}
+
+span{
+    text-shadow: 2px 2px 2px #000;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+span{
+    list-style-image:url('../../Assets/download.jpg');
+}

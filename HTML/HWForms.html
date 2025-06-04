@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+    <h1>Registration Form</h1>
+    <form action="loginform.html">
+        <div>
+        <label for="username">UserName:-</label>
+        <input type="text" placeholder="Enter Your Name" required>
+        </div>
+
+        <div>
+        <label for="createpassword">Create Password:-</label>
+        <input type="password" placeholder="Create Your Password" required>
+        </div>
+
+        <div>
+        <label for="confirmpassword">Confirm Password:-</label>
+        <input type="password" placeholder="Confirm Your Password" required>
+        </div>
+
+        <div>
+            <label for="dob">DOB:-</label>
+            <input type="date">
+        </div>
+
+        <div>
+            <label for="gender">Gender:-</label>
+            <input type="radio" name="gender" required>Male
+            <input type="radio" name="gender" required>Female
+        </div>
+
+        <div>
+        <label for="phoneno">Phone Number:- </label>
+        <input type="tel" placeholder="Enter Your phoneno" maxlength="10">
+        </div>
+
+        <div>
+        <label for="email">Email :-</label>
+        <input type="email" placeholder="enter Your email">
+        </div>
+
+        <div>
+            <label for="cources">Cources:-</label>
+            <input type="checkbox">Java
+            <input type="checkbox">Python
+            <input type="checkbox">C
+            <input type="checkbox">.Net
+        </div>
+
+        <div>
+            <label for="time">Time:-</label>
+            <input type="time">
+
+        </div>
+
+        <div>
+            <label for="">Cources:-</label>
+            <select name="Cources" id="cources">
+                <option value="">c++</option>
+                <option value="">java</option>
+                <option value="">python</option>
+                <option value="">c</option>
+            </select>
+        </div>
+
+        <div><input type="submit"></div>
+
+    </form>
+    </div>
+</body>
+</html>

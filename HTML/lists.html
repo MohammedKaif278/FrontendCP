@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in HTML</title>
+    
+</head>
+
+<body>
+    <!-- Zen code(short end code) to get 100 number of lists at a time 
+    ol>li*100 -->
+
+
+    <!-- UnOrdered List -->
+    <!-- bullet is default  -->
+
+    <ul type="square">
+        <li>java</li>
+        <li>python</li>
+        <li>C</li>
+        <li>C++</li>
+    </ul>
+
+    <!-- UnOrdered List -->
+    <ul type="circle">
+        <li>Angular.js</li>
+        <li>vue.js</li>
+        <li>typescript</li>
+        <li>Bootstrap</li>
+    </ul>
+
+    <li>SQL</li>
+    <li>PL/SQL</li>
+    <li>MYSQL</li>
+    <li>MongoDb</li>
+
+
+    <!-- Ordered List -->
+
+    <!-- Type attributes iis having 4 values:
+     1 (default),A,a,I,i -->
+
+    <ol type="I">
+        <li>Mongodb</li>
+        <li>Express.js</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+    </ol>
+
+    <ol type="a">
+        <li>Hyderabad</li>
+        <li>Mumbai</li>
+        <li>Pune</li>
+        <li>Bangulore</li>
+    </ol>
+
+    <!-- Nested list -->
+
+    <ul>
+        <li>HTML</li>
+            <ol>
+                <li><b> Head </b></li>
+                <ul>
+                    <li>meta1</li>
+                    <li>meta2</li>
+                    <li>title</li>
+                </ul>
+
+                
+
+                <li><b> Body </b></li>
+                <ol>
+                    <li type="i">Block level Element</li>
+                    <ol type="a">
+                        <li>section</li>
+                        <li>h1</li>
+                        <li>para</li>
+                        <li>div</li>
+                    </ol>
+
+                    <li type="i">Inline level Element</li>
+                    <ol type="a">
+                        <li>a</li>
+                        <li>span</li>
+                        <li>button</li>
+                        <li>image</li>
+                    </ol>
+                </ol>
+            </ol>
+    </ul>
+
+    <h1>E-Commerce Websiyte</h1>
+
+    <ul>
+        <li><a target="_blank" href="https://www.amazon.in/Genuine-Leather-Sleeve-Laptop-MacBook/dp/B0DX6YWVZB?th=1">AMAZON</a></li>
+
+
+        <li><a target="_blank" href="https://www.flipkart.com/">FLIPKART</a></li>
+
+        <li><a target="_blank" href="https://www.meesho.com/?srsltid=AfmBOop31DLko0IM4rMgtr-6ikcEwLRvQgPJAprY25BUsDEhf2K7tWDH">MEESHO</a></li>
+
+    </ul>
+
+
+
+    <h1>Groceries</h1>
+    <ul type="circle">
+        <li><i>Fruits:</i></li>
+        <ol type="1">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Graphes</li>
+            <li>Pineapple</li>
+        </ol>
+
+
+
+
+        <li><i>Vegetables:</i></li>
+        <ol type="1">
+            <li>Tomato</li>
+            <li>Pumkin</li>
+            <li>Patato</li>
+            <li>Onion</li>
+        </ol>
+    </ul>
+    
+    <!-- Zen Code -->
+     h1{Groceries}+ul>li{FRUITS}+ol>li*4+li{VEGS}+ol>li*4
+    
+
+    
+
+
+</body>
+
+</html>

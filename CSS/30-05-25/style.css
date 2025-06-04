@@ -1,0 +1,26 @@
+h1{
+    /* display: none; */
+    visibility: hidden;
+}
+
+img{
+    opacity: 0.5;
+}
+
+#gridBox{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    
+    list-style: none;
+    gap: 10px;
+    border: 2px solid green;
+    width: 70%;
+}
+
+#divGridBox{
+    background-color: red;
+}
+
+li{
+    border: 1px solid ;
+}

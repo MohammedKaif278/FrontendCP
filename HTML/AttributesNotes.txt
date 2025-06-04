@@ -1,0 +1,37 @@
+05-05-25
+
+Attributes :-
+-It gives additional information to HTML tag or element.
+-It comes in the pair like name="value"
+
+Global Attributes:- It can be inserted in any value or tag.
+
+             - id:-it will unique or different
+             - class:-when we like same attributes we use class attributes
+             - style:- It is use for styling the element
+             - title:-It gives additional information about the element 
+             - hidden :- IT is used for hidding the element.
+Event Attributes
+            - onclick
+             - onmouseover
+            - onload
+Form Attributes
+             - type
+             - name
+             - value
+             - placeholder
+             - required
+Anchor Tag Attributes
+             - href
+             - target
+             - download
+Image Attributes
+             - src
+             - alt
+             - width
+             - height
+Boolean Attributes
+             - checked
+             - disabled
+             - readonly
+             - autofocus

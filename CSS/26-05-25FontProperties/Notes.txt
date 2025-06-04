@@ -1,0 +1,175 @@
+Diffrent ways of giving font element:-
+font properties:-
+
+h1{
+    font-size: 40px; ---------------- For giving font size
+    font-family: cursive;---------------- For giving font writing 
+    font-weight: bolder;---------------- For giving font weight
+    font-style: italic;---------------- For giving font style
+}
+
+-------------------------------------------------------------------------------------------------------------
+
+Diffrent ways of giving link element:-
+Link properties:-
+
+before visiting the link
+a:link{
+    color: green;
+}
+
+after the link
+a:visited{
+    color: aqua;
+}
+
+during click on the link
+a:active{
+    color: red;
+}
+
+after the link
+a:hover{
+    color: yellow;
+}
+
+
+------------------------------------------------------------------------------------------------------------
+UNIVERSEL SELECTORS:-
+It is write on top
+*{
+    color: pink;
+    font-size: 26px;
+    It will give the default margin
+    margin: 0px;
+}
+It works on whole program
+
+-------------------------------------------------------------------------------------------------------------
+ USING ID SELECTORS
+
+HTML:-
+     <a id="home" href="#">home</a>
+     <a id="about" href="#">about</a>
+     <a id="contact" href="#">contact</a>
+
+CSS:-
+#home{
+    color: pink;
+}
+
+#about{
+    color: red;
+}
+
+#contact{
+    color: blue;
+}
+
+-------------------------------------------------------------------------------------------------------------
+ USING ID SELECTORS For <a> tag
+
+HTML:-
+     <a id="home" href="#">home</a>
+     <a id="about" href="#">about</a>
+     <a id="contact" href="#">contact</a>
+
+CSS:-
+#home:hover{
+    color: pink;
+}
+
+#about:link{
+    color: red;
+}
+
+#contact:visited{
+    color: blue;
+}
+
+-------------------------------------------------------------------------------------------------------------
+
+FOR GIVING POINTER
+
+span{
+    cursor: pointer;
+}
+
+-------------------------------------------------------------------------------------------------------------
+FOR GIVING CLASS:-
+
+For giving same properties to 2/3 tags that time we use CLASS ATTRIBUTES....
+
+HTML:-
+     <div class="mycls">
+        abc
+     </div>
+     <h2 class="mycls">
+        xyz
+     </h2>
+     <p class="mycls">
+        pqr
+     </p>
+
+CSS:-
+.mycls{
+    background-color: red
+}
+
+
+****************************************************************************************
+IF I want t give same color for 2 tags and same color for another 2 tags
+
+HTML:-
+     <main class="mycls2">
+        Lorem ipsum dolor sit amet.
+     </main>
+     <article class="mycls2">Lorem ipsum dolor sit amet consectetur.</article>
+
+     <ul id="myid">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+     </ul>
+     <h4 id="myid1">
+        kaif
+     </h4>
+
+CSS:-
+.mycls2{
+    background-color: greenyellow;
+}
+
+#myid{
+    background-color: black;
+}
+
+*****************************************************************************************************
+If I am giving ID & CLASS for same tag then ID will work.....bcz ID has First Priority
+
+HTML:-
+     <main class="mycls2">
+        Lorem ipsum dolor sit amet.
+     </main>
+     <article class="mycls2">Lorem ipsum dolor sit amet consectetur.</article>
+
+     <ul id="myid" class="mycls2">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+     </ul>
+     <h4 id="myid1" class="mycls2">
+        kaif
+     </h4>
+
+CSS:-
+.mycls2{
+    background-color: greenyellow;
+}
+
+#myid{
+    background-color: black;
+}
+
+
+

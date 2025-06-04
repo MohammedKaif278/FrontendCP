@@ -1,0 +1,41 @@
+HTML Entities:- It is code that represents special character which are not in local devices keyboard
+
+syntax:- &specialCharacterName;
+
+eg:-&copy;
+
+
+HTML Hexadecimal codes:-
+Here also we use code by  using special characters by giving hexadecimal value
+
+syntax:- &#xHexadecimalValue;
+
+eg:- &#x63;
+
+Title Tag:-
+-To give name for webpage
+-To bookmark the page
+-For SEO(Search Engine Optimmization),title will be to understood by web server
+
+how to set logo/icon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+label{
+    align-items:start;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Signup Form</h1>
+
+        <div>
+        <form  action="">
+            <div><label for="fullname">Full Name:</label></div>
+
+            <div><input type="text" required placeholder="Enter Your Name"></div>
+
+            <div><label for="email address">Email Address:</label></div>
+
+            <div><input type="email" required placeholder="Enter Your email"></div>
+
+            <div><label for="username">User Name:</label></div>
+
+            <div><input type="text" required placeholder="Enter Your username"></div>
+
+
+            <div><label for="password">Password:</label></div>
+
+            <div><input type="password" required placeholder="Enter Your password"></div>
+
+            <div><label for="confirmpassword">Confirm Password:</label></div>
+
+            <div><input type="password" required placeholder="Confirm password"></div>
+
+            <div><label for="DOB">Date of Birth:</label></div>
+
+            <div><input type="date"></div>
+
+            <div><label for="gender">Gender:</label></div>
+
+            <div>
+                <input type="radio" name="gender">Male
+
+                <input type="radio" name="gender">Female
+
+                <input type="radio" name="gender">Other
+            </div>
+
+            <div>
+                <label for="">Country:</label>
+            </div>
+            <div>
+            <select name="Country" id="country">Country:
+            <option value="">INDIA</option>
+            <option value="">USA</option>
+            </select>
+            </div>
+
+            <div>
+                <input type="checkbox">I agree to the Terms and Conditions
+            </div>
+
+            <div>
+                <input type="submit">
+            </div>
+
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>

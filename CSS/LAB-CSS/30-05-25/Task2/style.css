@@ -1,0 +1,14 @@
+div {
+    background-image: url('../../../../Assets/download.jpg'), url('../../../../Assets/download2.jpg'), url('../../../../Assets/download3.svg'), url('../../../../Assets/download5.jpg');
+    background-size: 100px 100px,
+        100px 100px, 100px 100px, 100px 100px;
+
+    background-position: top left,
+        top center,
+        top right,
+        bottom right;
+    width: 700px;
+    height: 600px;
+    background-repeat:  no-repeat, no-repeat,no-repeat, no-repeat;
+}
+

@@ -1,0 +1,24 @@
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#divImg{
+    background: linear-gradient(red,blue,green);
+    width: 400px;
+    padding: 20px;
+
+    
+}
+
+#btnImg{
+    background-image: url('../../../../Assets/download.jpg');   
+   
+}
+
+form{
+    padding-left: 80px;
+}

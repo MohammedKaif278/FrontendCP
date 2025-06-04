@@ -1,0 +1,21 @@
+#myDiv1{
+    background-color: red;
+    color: white;
+}
+#myDiv2{
+    background-color: BLUE;
+    color: red;
+}
+
+.myClsforDiv{
+    background-color: red;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+

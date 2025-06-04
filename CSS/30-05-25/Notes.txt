@@ -1,0 +1,8 @@
+...
+h1{
+     display: none; ----------- After using this property we can add anything in that place
+    visibility: hidden;-------- You need space than we use visibilty hidden property
+    After using this property we cannot add anything in that place
+}
+
+display flex property is for converting  the block level element to inline level element

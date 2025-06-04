@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tag </title>
+</head>
+
+<body>
+    <nav align="right" id="navbar">
+
+        <a href="#Home">Home</a> ||
+        <a href="#Services">Services</a> ||
+        <a href="#Register">Register</a> ||
+        <a href="#Contact">Contact</a>
+
+    </nav>
+
+    <main>
+        <section>
+            <form action="">
+
+
+                <h2>Patient Information</h2>
+
+                <label for="fn">Full Name:</label><br>
+                <input type="text">
+
+                <br><br>
+                <label for="email">Email: </label><br>
+                <input type="email">
+
+                <br><br>
+                <label for="phone">Phone Number :</label><br>
+                <input type="tel" maxlength="10">
+
+                <br><br>
+                <label for="DOB">Date of Birth :</label><br>
+                <input type="date">
+
+                <br><br>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other
+
+
+                <h2>Health & Lifestyle</h2>
+
+                    <label for="weigth">weight(kg):</label>
+                    <input type="number" >
+
+                    <br><br>
+
+                    <label for="time">Blood Group:</label><br>
+                   <select name="" id="">
+                      <option value="">A+</option>
+                        <option value="">A-</option>
+                        <option value="">B+</option>
+                        <option value="">B+</option>
+                        <option value="">O</option>
+                   </select>
+
+                   <br><br>
+                    <input type="checkbox">Do you smoke?
+
+                    <br><br>
+                   <label for="range">Alcohol Consumption:</label><br>
+                    <input type="range">
+
+                    <br><br>
+                   <label for="range">Blood Pressure Status:</label><br>
+                    <input type="text" placeholder="Normal/High/Low">
+
+
+
+                    <h2>Check-Up Preference</h2>
+
+                    <label for="date time">Preferred Check-Up Date:</label><br>
+                    <input type="datetime-local" >
+
+                    <br><br>
+
+                    <label for="package" >Select package:</label><br>
+                    <input list="package">
+                    <datalist id="package">
+
+                        <option value="3LPA">3LPA</option>
+                <option value="4LPA">4LPA</option>
+                    </datalist>
+
+                    <br><br>
+
+                    <label for="upload">Upload Previous Reports:</label><br>
+                    <input type="file">
+
+                    <br><br>
+
+                    <label for="password">Create Login Password:</label><br>
+                    <input type="password">
+                      
+                    <h2>Declaration</h2>
+                    
+                    <input type="checkbox">I confirm all the above information is accurate.
+
+            </form>
+        </section>
+</body>
+
+</html>

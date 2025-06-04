@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+header {
+ 
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  
+  justify-content: space-between;
+  background: url('../../../../Assets/download.jpg') no-repeat ;
+  
+  padding: 40px;
+  
+  background-size: 100% 300px;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.about {
+  
+  color: white;
+}
+
+.skills-section,
+.projects-section {
+  /* background-color: #f0eefe; */
+  padding: 30px;
+  text-align: center;
+ 
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+  
+}
+
+.skills div {
+  background-color: #d4e8f8;
+  border: 2px solid #89bde9;
+  
+  padding: 15px 20px ;
+  
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.project {
+  background-color: #eaffea;
+  border: 1px solid #a3d9a5;
+  margin: 10px;
+  padding: 20px;
+  max-width: 150px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+

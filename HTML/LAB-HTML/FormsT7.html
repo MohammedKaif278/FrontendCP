@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+    <h1 align="center">Hotel Booking & Feedback Portal</h1>
+    
+    <form >
+    <table align="center" border="2" cellpadding="10">
+        <thead>
+            <tr>
+                <th colspan="4">Customer Booking Details</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr align="center">
+                <td>Name</td>
+                <td ><input type="text" ></td>
+                <td>Email</td>
+                <td><input type="email" ></td>
+            </tr>
+
+            <tr align="center">
+                <td>Contact Number</td>
+                <td ><input type="tel" ></td>
+                <td>No. of Guests</td>
+                <td><input type="text" ></td>
+            </tr>
+
+            <tr align="center">
+                <td>Check-in Date</td>
+                <td ><input type="date" ></td>
+                <td>Check-out Date</td>
+                <td><input type="date" ></td>
+            </tr>
+
+            <tr align="center">
+                <td>Check-in Time</td>
+                <td ><input type="time" ></td>
+                <td>Room Type</td>
+                <td><input type="time" ></td>
+            </tr>
+
+            <tr >
+                <td rowspan="2">
+                    Payment method
+                </td>
+                <td colspan="3">
+                    <input type="radio" name="payment" >Card
+                    <input type="radio" name="payment">UPI
+                    <input type="radio" name="payment">Cash
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <label for="amenities">Amenities:</label><br>
+                    <input type="checkbox">WiFi
+                    <input type="checkbox">Breakfast
+                    <input type="checkbox">Pool
+                    <input type="checkbox">Parking
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                <fieldset>
+                    <legend>Feedback</legend>
+
+                    <label for="">Special Requests:</label><br>
+
+                    <textarea name="request" id="" rows="5" cols="50"></textarea>
+
+                    <br><br>
+                    <label for="rate">Rate Us:</label>
+                    <input type="range">
+
+                    <br><br>
+                    <label for="color">Favorite Color Theme:</label>
+                    <input type="color">
+
+                    <br><br>
+                    <label for="proof">Upload ID Proof:</label>
+                    <input type="file">
+
+                </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="4">
+                    <input type="submit" value="Book Now">
+                    <input type="Reset" value="Reset Favorite">
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+    </section>
+</body>
+</html>

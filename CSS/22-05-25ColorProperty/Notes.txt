@@ -1,0 +1,65 @@
+CSS:-
+#INTRODUCTION:-
+HW LIE invent css 1994
+
+<p style=background color:red;>text<p> ---------   Inline css
+
+
+<style> 
+    p
+     {
+        background color:red;       ------- internal css
+    }
+</style> 
+
+
+
+style.css 
+    p
+     {
+        background color:red;       ------- External css
+    }
+
+#Different ways of giving CSS:-
+
+    1- Inline CSS has first priority.(style attribute)
+    2- External has second priority.(style.css file)
+    3- Internal has third priority.(style tag)
+
+    ERRORS:-
+    Browsers compatibility
+    if we get link tag before style tag than style tag is apply because style tag has in last position so it get first  priority
+
+
+
+    if 3 style.css(External) file and link all of them than last one has first priority
+
+
+";" semicolon is compulsory.... either syntax error
+-----------------------------------------------------------------------------------------------
+
+eg.2
+if bracket is not complete than first element is only apply
+p
+{
+     background color:red;
+
+
+h4{
+     background color:green;
+}
+
+output :- red color
+
+-----------------------------------------------------------------------------------------------
+eg.3 if
+ p{
+    background color:red;
+}
+
+p{
+    background color:red;
+}
+
+last element is apply
+-----------------------------------------------------------------------------------------------

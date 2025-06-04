@@ -1,0 +1,63 @@
+#navBarSection{
+    border: 1px solid black;
+    height: 75px;
+    background-color: aquamarine;
+    
+}
+
+#navBar{
+    display: flex;
+    height: inherit;
+    width: 90%;
+    margin: auto;
+}
+
+div{
+    height: inherit;
+    border: 1px solid red;
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%; */
+}
+
+/* #logoblock{
+    width: 25%;
+    background-color: white;
+}
+
+#menublock{
+    width: 50%;
+    background-color: bisque;
+}
+
+#authblock{
+    width: 25%;
+    background-color: red;
+} */
+
+#loginbutton{
+    padding: 6px 12px;
+}
+
+
+#loginFormSection{
+    
+    background-color: red;
+    height: 200px;
+    width: 300px;
+   margin: auto;
+    padding: 40px;
+    display: none;
+}
+
+
+#loginForm{
+    display: inherit;
+}

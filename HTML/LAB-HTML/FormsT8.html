@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 align="center" >Internatinal Tech Conference - 2025 Registration Form</h1>
+    <form action="">
+        <table align="center"   border="2" cellpadding="10">
+
+            <thead>
+                <th colspan="5">Personal Information</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text"></td>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+
+                    <td rowspan="2">
+                        <label for="mobile">Mobile</label><br>
+                        <input type="tel">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        DOB
+                    </td>
+                    <td><input type="date"></td>
+                    <td>Nationality</td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <th colspan="5">
+                        Conference Preference
+                    </th>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">
+                        Conference Days
+                    </td>
+
+                    <td colspan="2">
+                        <input type="checkbox">Day 1
+                        <input type="checkbox">Day 2
+                        <input type="checkbox">Day 3
+                    </td>
+
+                    <td>
+                        Track Selection
+                    </td>
+
+                    <td>
+                        <select name="" id="">
+                            <option value="AI">AI</option>
+                            <option value="ML">ML</option>
+                            <option value="FRONTEND">FRONTEND</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="4">
+                        <label for="accomodation">Accomodation Required</label>
+                        <input type="radio" name="accomodation">Yes
+                        <input type="radio" name="accomodation">No
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <fieldset>
+                            <legend>Workshop Slot Booking</legend>
+                            <table border="2" style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th>Day`</th>
+                                        <th>Morning</th>
+                                        <th>Afternoon</th>
+                                        <th>Evening</th>
+                                    </tr>
+
+
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>Day 1</td>
+                                        <td><input type="radio" name="day1"></td>
+                                        <td><input type="radio" name="day1"></td>
+                                        <td><input type="radio" name="day1"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Day 2</td>
+                                        <td><input type="radio" name="day2"></td>
+                                        <td><input type="radio" name="day2"></td>
+                                        <td><input type="radio" name="day2"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Day 3</td>
+                                        <td><input type="radio" name="day3"></td>
+                                        <td><input type="radio" name="day3"></td>
+                                        <td><input type="radio" name="day3"></td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Upload Passport
+                    </td>
+
+                    <td colspan="2">
+                        <input type="file">
+                    </td>
+
+                    <td>Special Needs</td>
+
+                    <td>
+                        <textarea name="needs" id=""></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>T-Shirt Size</td>
+
+                    <td>
+                        <select name="size" id="">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </td>
+
+                    <td>Badge Color</td>
+
+                    <td colspan="2">
+                        <input type="color">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="5">
+                        <fieldset>
+                            <legend>
+                                Security Verification
+                            </legend>
+                            <label for="age">Age</label>
+                            <input type="number">
+
+                            <label for="level">Excitemnet Level(1-10):</label>
+                            <input type="range">
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center" colspan="5">
+                        <input type="submit" value="Submit Registration">
+                        <input type="reset" value="Reset Form">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

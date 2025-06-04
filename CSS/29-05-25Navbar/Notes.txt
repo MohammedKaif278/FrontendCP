@@ -1,0 +1,28 @@
+Standard height for navbar is 75px.
+Standard padding for button is 6px 12px.
+                        top-bottom  left-right
+
+For dividing navbar we can use this things:-
+
+/* #logoblock{
+    width: 25%;
+    background-color: white;
+}
+
+#menublock{
+    width: 50%;
+    background-color: bisque;
+}
+
+#authblock{
+    width: 25%;
+    background-color: red;
+} */
+
+         OR
+
+ flex: 1;
+     or
+/* flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 0%; */

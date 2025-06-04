@@ -1,0 +1,33 @@
+Diffrent ways of giving colors to text:-
+Color properties:-
+p{
+    color: blue; ----------------------------------name
+}
+
+h1{
+    color: #ff0000;-------------------------------#hexa
+}
+
+h2{
+    color: rgb(34, 23, 21);----------------------- rgb
+}
+
+article{
+    color: rgba(45, 34, 20, 0.7);-----------------rgba
+}
+
+
+---------------------------------------------------------------------------------------
+
+Diffrent ways of giving Background to text:-
+Background properties:-
+
+section{
+    background-image: url("../../Assets/download.jpg");
+    background-repeat: no-repeat;
+    background-color: yellow;
+    background-size: 100% 400px;-------(Width height)
+    width: 50%;
+    background-attachment: fixed;
+    /* background-position: center; */
+}

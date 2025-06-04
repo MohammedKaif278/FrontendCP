@@ -1,0 +1,36 @@
+Diffrent ways of giving text element:-
+Text properties:-
+
+p{
+    text-align: center;   -------------For giving alignment
+}
+
+a{
+    text-decoration: none; ------------For giving decoration
+}
+
+h1{
+    text-transform: uppercase;------------For giving convert purpose e.g small to capital ....vice versa
+    text-decoration: underline;
+}
+
+article{
+    text-indent: 60px;----------For giving paragraph start space 
+}
+
+span{
+    text-shadow: 2px 2px 2px #000;------------For giving shadow (x-axis y-axis transperency color)
+}
+ 
+**************************************************************************************************************
+
+Diffrent ways of giving list element:-
+List properties:-
+
+ul{
+    list-style-type: circle;------------For giving list style as a circle
+}
+
+span{
+    list-style-image:url('../../Assets/download.jpg'); -----------For giving list style as a image
+}

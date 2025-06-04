@@ -1,0 +1,11 @@
+HTML Images:-
+
+Web image formats:-
+1:JPEG - maximum image size
+2:PNG - It is also gives maximum reslution or size when compared to jpeg
+3:SVG - 
+4:GIF
+5:webP
+
+How images are used in web design.
+-

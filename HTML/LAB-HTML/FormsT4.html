@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>University Course Enrollment Form</h1>
+
+    <form action="">
+
+    <fieldset>
+        <legend>Student Details</legend>
+        <div>
+            <label for="fn">Full Name:</label>
+        
+        <input type="text" >
+        </div>
+
+        <div>
+            <label for="fn">Roll Number:</label>
+        
+        <input type="number" >
+        </div>
+
+        <div>
+            <label for="email">Email :</label>
+        
+        <input type="email" >
+        </div>
+
+        <div>
+            <label for="DOB">Date of Birth :</label>
+        
+        <input type="date" >
+        </div>
+
+        <div>
+            <label for="gender">Gender:</label>
+        
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other
+        
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Course Selection</legend>
+        <label for="select Courses">Select Courses:</label>
+        <div><input type="checkbox">CSE101 - Data Structure</div>
+
+        <div><input type="checkbox">MATH203 - Calculus</div>
+
+        <div><input type="checkbox">PHY202 - Electromagnetic</div>
+
+        <div><input type="checkbox">ENG105 - English Literature</div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Additional Details</legend>
+        <label for="preferred time slot">Preferred Time Slot</label>
+
+        <div><input type="radio" name="time">Morning
+        </div>
+
+        <div><input type="radio" name="time">Afternoon</div>
+
+        <div><input type="radio" name="time">Eveninng</div>
+
+        <div>
+            <label for="department">Department</label>
+            <select name="department" id="">
+                <option value="..Select Department">..Select Department..</option>
+                <option value="Java Full Stack">Java Full Stack</option>
+                <option value="Python Full Stack">Python Full Stack</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="id">Upload Student ID (PDF/Image):</label>
+            <input type="file">
+        </div>
+
+        <div>
+            <label for="comment">Why do you want to join this course?</label>
+            </div>
+            <div>
+            <textarea name="comment" id="" rows="5" cols="15"></textarea>
+        </div>
+
+        <div>
+            <input type="checkbox"> I agree to the Terms and Conditions
+        </div>
+
+    </fieldset>
+    <div>
+        <input type="submit" value="Submit Enrollment">
+        <input type="reset" value="Reset Form">
+    </div>
+    </form>
+</body>
+</html>
