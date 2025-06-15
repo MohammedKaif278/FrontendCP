@@ -14,9 +14,13 @@ header{
     padding: 20px 30px;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
+.logo:hover{
+    transform: scale(1.05);
+}
 
 .logo>p{
     font-size: 48px;
@@ -26,6 +30,7 @@ header{
 
 .logo>p>span{
     color: red;
+    font-size: 36px;
 }
 
 .menu{
@@ -39,10 +44,14 @@ header{
     color: white;
     text-decoration: none;
     font-size: 24px;
+    
 }
 
-.menu>li>a:hover{
-    color: blue;
+.menu>li:hover{
+    
+    transform: scale(1.1);
+    
+    
 }
 
 #banner{
@@ -59,10 +68,10 @@ color: white;
 }
 
 #banner>img{
-    height: 35%;
+    height: 45%;
     width: 15%;
-    border-radius: 100%;
-    box-shadow: 3px 5px 30px white;
+    border-radius: 30px;
+    
 }
 
 #banner>h2{
@@ -76,6 +85,11 @@ color: white;
     
 }
 
+#banner,h2:hover{
+    transform: scale(1.05);
+    color: red;
+    
+}
 .title{
     text-align: center;
     margin: 50px 0px;
@@ -186,16 +200,18 @@ color: white;
 }
 
 #contact{
-    margin: 20px auto;
+    margin: 30px auto;
     max-width: 1280px;
-    box-shadow: 2px 3px 10px ;
+    box-shadow: 4px 6px 20px ;
     width: 400px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    
     justify-content: center;
-    color: white;
+    align-items: center;
+    color: black;
     font-size: 24px;
-    padding: 50px 10px;
+    padding: 40px 10px;
     border-radius: 20px;
     gap: 10px;
     text-decoration: none;
@@ -207,22 +223,34 @@ color: white;
      color: green;
 }
 
-#contact>h3>a:hover{
-    transform: scale(2.5);
-    
-    color: red;
-
+#contact>button{
+    width: 120px;
+    border-radius: 10px;
+    padding: 4px;
+    color: black;
+    background-color: transparent;
+   border-color: yellow;
 }
 
-.socialmedia>a{
+#contact>button>a{
     color: white;
-    font-size: 24px;
+    
+    
 }
+
+
+#contact>button:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 3px 15px ;
+    background-color: black;
+    
+}
+
 
 a{
     text-decoration: none;
     color: grey;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
@@ -242,7 +270,7 @@ a{
 }
  .floating-whatsapp img:hover {
       transform: scale(1.1);
-      box-shadow: 2px 3px 20px ;
+      
     }
 
 footer{
