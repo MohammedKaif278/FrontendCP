@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: black; */
+    background: linear-gradient(360deg,black,blue,black);
+}
+header{
+    /* background-color: pink; */
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo>p{
+    font-size: 48px;
+    color: white;
+    
+}
+
+.logo>p>span{
+    color: red;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.menu>li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu>li>a:hover{
+    color: blue;
+}
+
+#banner{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h2,h3 ,p,.skill{
+color: white;
+
+}
+
+#banner>img{
+    height: 35%;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px 5px 30px white;
+}
+
+#banner>h2{
+    font-size: 64px;
+}
+#banner>h3{
+    font-size: 18px;
+}
+#banner>p{
+    margin: 0 15px;
+    
+}
+
+.title{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 30%;
+    
+    
+}
+
+.etitle{
+    text-align: center;
+}
+
+.degree{
+    box-shadow: 2px 3px 20px white ;
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    
+}
+
+.degree:hover{
+    transform: scale(1.2);
+     color: red;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.skill{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 50px;
+    
+}
+
+
+
+.skill>i{
+    box-shadow: 2px 3px 20px black ;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 35px;
+    gap: 30px;
+    background-color: #2f16a1;
+    
+}
+
+.skill>i:hover{
+     color: red;
+      transform: scale(1.1);
+      box-shadow: 2px 3px 15px white;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1280px;
+    gap: 40px;
+
+    
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 2px 3px 20px;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.project:hover{
+    /* transform: scale(1.1);
+    color: red; */
+     transform: scale(1.05);
+     box-shadow: 2px 3px 15px white;
+}
+
+.project>button:hover{
+    transform: scale(1.05);
+     box-shadow: 2px 3px 15px black;
+     color: white;
+}
+
+#contact{
+    margin: 20px auto;
+    max-width: 1280px;
+    box-shadow: 2px 3px 10px ;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    padding: 50px 10px;
+    border-radius: 20px;
+    gap: 10px;
+    text-decoration: none;
+}
+
+#contact:hover{
+    transform: scale(1.05);
+     box-shadow: 2px 3px 15px white;
+     color: green;
+}
+
+#contact>h3>a:hover{
+    transform: scale(2.5);
+    
+    color: red;
+
+}
+
+.socialmedia>a{
+    color: white;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    
+}
+
+
+
+.socialmedia>a:hover{
+    transform: scale(1.1);
+     
+    color: green;
+   }
+
+.floating-whatsapp img{
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+ .floating-whatsapp img:hover {
+      transform: scale(1.1);
+      box-shadow: 2px 3px 20px ;
+    }
+
+footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+}
