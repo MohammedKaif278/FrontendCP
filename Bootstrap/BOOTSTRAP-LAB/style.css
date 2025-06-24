@@ -1,0 +1,19 @@
+body{
+    background-color: #f8f9fa;
+}
+.login-container{
+    background-color: #fff;
+    margin: 100px auto;
+    padding: 30px;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px grey;
+}
+
+.form-control::placeholder{
+    color: #999;
+}
+
+.input-group-text {
+      background-color: #f1f1f1;
+    }

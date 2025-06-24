@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Kabab Corner - Single Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        li { list-style: none; }
+        a { text-decoration: none; }
+        .mainparent { width: 85%; }
+        .card { width: 30%; }
+        body { background-color: #f8f9f8; }
+        .hight-vh { height: 87.6vh; }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar bg-light border border-1 d-flex justify-content-around p-3 sticky-top">
+        <h1 class="text-danger font-monospace">A1 Kabab Corner</h1>
+        <ul class="nav">
+            <li><a class="nav-link text-black-50" href="#Home">Home</a></li>
+            <li><a class="nav-link text-black-50" href="#about">About</a></li>
+            <li><a class="nav-link text-black-50" href="#contact">Contact</a></li>
+            <li><a class="nav-link rounded bg-primary text-black" href="#signup">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="Home" class="mainparent d-flex justify-content-center align-content-center m-auto mt-5 h-75 gap-4 p-3 shadow">
+        <div class="Categories border border-2 rounded p-3 w-25 h-25 bg-white">
+            <h2>Categories</h2>
+            <ul class="list-unstyled">
+                <li><a class="text-decoration-none text-black" href="#">All Cuisines</a></li>
+                <li><a class="text-decoration-none text-black" href="#">Indian</a></li>
+                <li><a class="text-decoration-none text-black" href="#">Italian</a></li>
+                <li><a class="text-decoration-none text-black" href="#">Chinese</a></li>
+                <li><a class="text-decoration-none text-black" href="#">Mexican</a></li>
+                <li><a class="text-decoration-none text-black" href="#">Desserts</a></li>
+                <li><a class="text-decoration-none text-black" href="#">Beverages</a></li>
+            </ul>
+        </div>
+        <div class="searchcards d-flex flex-column gap-4">
+            <div class="searcch border d-flex justify-content-center align-content-center h-25 gap-2 p-3 rounded bg-white">
+                <div class="w-50">
+                    <input class="w-100 p-2 rounded" type="search" placeholder="Search for food...">
+                </div>
+                <div class="d-flex w-50 gap-3">
+                    <button class="btn border border-2 w-50">Filter</button>
+                    <button class="btn w-50 border border-2">Sort By</button>
+                </div>
+            </div>
+            <div class="cards d-flex justify-content-center flex-wrap gap-5 w-100">
+                <!-- Sample card -->
+                <div class="card">
+                    <div class="w-100 h-50 border-bottom border-2">
+                        <img src="Assets/tandoorilegpeice.jpg" class="card-img-top w-100 h-100" alt="...">
+                    </div>
+                    <div class="card-body h-50 bg-light">
+                        <h5 class="card-title">Tandoori Leg Piece</h5>
+                        <p class="card-text">Chicken, Spices, Yogurt and Roasted Tandoor...</p>
+                        <div class="d-flex gap-5">
+                            <p>₹ 120.00</p>
+                            <a href="#itemdetail" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More cards can go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Details Section -->
+    <section id="itemdetail" class="d-flex m-auto justify-content-center align-items-center w-75 h-100 mt-5 border border-2 rounded rounded-3 shadow">
+        <div class="w-50 h-100 border border-1 rounded rounded-2 shadow">
+            <img class="card-img-top" src="Assets/tandoorilegpeice.jpg" alt="Chicken Tandoori">
+        </div>
+        <div class="d-flex w-50 h-100 flex-column gap-3">
+            <h2>Chicken Tandoori</h2>
+            <p>Popular Indian dish known for its vibrant color, smoky flavor, and tender meat cooked in a tandoor.</p>
+            <h2>₹120</h2>
+            <a href="#" class="btn bg-primary text-white">Add to Cart</a>
+            <p><span class="text-secondary fw-bold">Ingredients:</span> Chicken, Yogurt, Lemon juice, Spices, Ginger-Garlic paste, Kasuri methi.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="d-flex flex-column w-75 m-auto mt-5 border border-2 rounded shadow p-4">
+        <h1 class="text-center">About A1 Kabab Corner</h1>
+        <div class="d-flex justify-content-center mt-4">
+            <h1 class="w-25 bg-primary p-3 text-white text-center">Our Mission</h1>
+            <p class="p-4 w-50">We believe that great food should be accessible to everyone. Our mission is to connect you with the best local eateries, bringing culinary delights to your doorstep with speed and exceptional service.</p>
+        </div>
+        <div class="mt-4">
+            <h4>Our Story</h4>
+            <p>Founded in 2023, A1 Kabab Corner began as a dream to bring delicious food with great service. From a small team to a beloved brand, our journey is powered by our commitment to local restaurants and hungry customers.</p>
+        </div>
+        <div class="mt-4">
+            <h4>Our Values</h4>
+            <div class="d-flex gap-3">
+                <div class="w-100 p-4 border text-center">
+                    <i class="bi bi-heart-fill text-primary fs-2"></i>
+                    <h5>Quality</h5>
+                    <p>We work with the best local restaurants to ensure high quality food and service.</p>
+                </div>
+                <div class="w-100 p-4 border text-center">
+                    <i class="bi bi-lightning-fill text-primary fs-2"></i>
+                    <h5>Speed</h5>
+                    <p>Quick delivery is our promise for every order you place.</p>
+                </div>
+                <div class="w-100 p-4 border text-center">
+                    <i class="bi bi-people-fill text-primary fs-2"></i>
+                    <h5>Community</h5>
+                    <p>We support local businesses and believe in growing together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Section -->
+    <section id="signup" class="card d-flex justify-content-center align-content-center m-auto mt-5 bg-white border-2 shadow w-25 h-50 p-5">
+        <form action="">
+            <div class="card-body d-flex flex-column gap-3">
+                <h1 class="card-title text-center">Sign Up</h1>
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" placeholder="Enter your full name">
+                <label for="Email">Email Address</label>
+                <input type="email" id="Email" placeholder="Enter your email">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <label for="cpassword">Confirm Password</label>
+                <input type="password" id="cpassword" placeholder="Confirm your password">
+                <input class="btn btn-primary" type="submit" value="Sign Up">
+                <p class="text-center">Already have an Account? <a href="#login">Login</a></p>
+            </div>
+        </form>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="card d-flex justify-content-center align-content-center m-auto mt-5 bg-white border-2 shadow w-25 h-50 p-5">
+        <div class="card-body d-flex flex-column gap-3">
+            <h1 class="card-title text-center">Login</h1>
+            <label for="loginEmail">Email Address</label>
+            <input type="email" id="loginEmail" placeholder="Enter email address">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" placeholder="Enter your password">
+            <input class="btn btn-primary" type="submit" value="Login">
+            <p class="text-center">Don't have an Account? <a href="#signup">Sign Up</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center text-lg-start mt-5">
+        <div class="container p-4 border-bottom border-3 w-75">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5>About Us</h5>
+                    <p>Your one-stop destination for delicious food delivered to your doorstep.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Order Now</a></li>
+                        <li><a href="#" class="text-white">How it Works</a></li>
+                        <li><a href="#" class="text-white">FAQs</a></li>
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white"><i class="bi bi-facebook"></i> Facebook</a></li>
+                        <li><a href="#" class="text-white"><i class="bi bi-twitter"></i> Twitter</a></li>
+                        <li><a href="#" class="text-white"><i class="bi bi-instagram"></i> Instagram</a></li>
+                        <li><a href="#" class="text-white"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-black text-light">
+            © 2025 A1 Kabab Corner | All Rights Reserved
+        </div>
+    </footer>
+</body>
+</html>

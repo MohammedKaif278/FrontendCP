@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    max-width: 100%;
+    scroll-behavior: smooth;
+    transition: all 0.5 ease;
+}
+
+.hero {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.113);
+    border-radius: 50%;
+}
+
+
+
+.nav-link {
+    color: grey;
+}
+
+
+
+
+.b1 {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(167, 55, 201);
+    font-weight: 400;
+}
+
+.b2 {
+    background-color: transparent;
+    color: grey;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* .b3 {
+    text-decoration: none;
+    width: 150px;
+} */
+
+/* .img2 {
+    width: 100px;
+    border-radius: 100px;
+    margin: 100px 0 0 20px;
+} */
+
+/* .skills {
+    background-color: fff;
+    margin: 20px 20px;
+    width: 100%;
+} */
+.aboutme{
+    
+}
+.wrapper{
+    width: 70%;
+}
+
+.baap {
+    background-color:#f8f9fa;
+}
